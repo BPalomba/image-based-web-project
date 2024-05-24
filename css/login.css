@@ -14,7 +14,7 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 50px;
-    width: 500px;
+    width: 450px;
     justify-content: center;
 }
 
@@ -22,6 +22,7 @@ h1{
     font-weight: bold;
     font-size: 60px;
     text-align: center;
+    margin-top: 0px;
 }
 
 h2{
@@ -37,26 +38,64 @@ h2{
     padding: 5px;
     text-align: left;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 input{
-    width: 475px;
+    width: 420px;
     border-radius: 10px;
-    height: 45px;
-    border-color: lightblue;
+    height: 45px;   
+    margin-left: 5px;
+    border: solid lightgray 1px;
 }
 
 button{
     color:white;
     background-color: #367BF5;
-    width: 475px;
-    border-radius: 10px;
+    width: 425px;
+    border-radius: 5px;
     height: 45px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: solid;
+}
+
+.imagen{
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+img{
+    width: 60px;
+    height: 40px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    margin-left: 200px;
+}
+
+h2{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.parrafo{
+    text-align: left;
+    font-size: small;
+    margin-top: 0;
 }
 
 hr{
     color: lightcyan;
     margin: 20px;
     margin-top: 40px;
+}
+
+footer{
+    font:x-small;
+}
+
+label{
+    margin-left: 5px
 }
