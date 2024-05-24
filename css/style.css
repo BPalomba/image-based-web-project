@@ -1,5 +1,17 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+section{
+    border: solid 2px;
+    padding: 20px 20px 20px 0px;
+    width: 300px;
+}
+
+h2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: aquamarine;
 }
 
 body{
@@ -25,4 +37,18 @@ body{
 
 .p1{
     text-align: center;
+}
+
+p{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+main{
+    display: flex;
+    box-sizing: border-box;
+    flex: 1 1 calc(33.333% - 10px);
+    box-sizing: border-box;
+    gap: 10px;
+    justify-content: center;
 }
