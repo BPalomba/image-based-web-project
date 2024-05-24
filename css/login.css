@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #CED6F0;
+    margin: 80px;
+    justify-content: center;
+}
+
+.cuadrado{
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 600px;
+    justify-content: center;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+button{
+    color:white;
+    background-color: #367BF5;
+
+}
