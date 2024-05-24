@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(198, 215, 237);
+    margin: 80px;
+}
+
+.cuadrado{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.services{
+    color: rgb(74, 119, 242);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.wdwo{
+    color: darkblue;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+}
