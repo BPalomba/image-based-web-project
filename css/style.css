@@ -1,17 +1,12 @@
-*{
-    font-family: Arial, Helvetica, sans-serif
-}
 
 section{
-    border: solid 2px;
     padding: 20px 20px 20px 0px;
-    width: 300px;
 }
 
 h2{
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     margin-bottom: 0px;
-    color: aquamarine;
+    color: darkblue;
 }
 
 body{
@@ -21,7 +16,8 @@ body{
 
 .cuadrado{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 50px;
 }
 
 .services{
@@ -44,14 +40,7 @@ p{
     margin-top: 0px;
 }
 
-main{
-    display: flex;
-    box-sizing: border-box;
-    flex: 1 1 calc(33.333% - 10px);
-    box-sizing: border-box;
-    gap: 10px;
-    justify-content: center;
-}
+
 
 .circulo{
     background-color: rgba(0, 0, 255, 0.688);
@@ -60,4 +49,13 @@ main{
     width: 30px;
     text-align: center;
     line-height: 34px;
+}
+
+.lineadiv{
+    gap: 10px;
+    display: flex;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
