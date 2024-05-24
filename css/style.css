@@ -52,3 +52,12 @@ main{
     gap: 10px;
     justify-content: center;
 }
+
+.circulo{
+    background-color: rgba(0, 0, 255, 0.688);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 34px;
+}
