@@ -6,11 +6,11 @@ section{
 h2{
     padding-bottom: 5px;
     margin-bottom: 0px;
-    color: darkblue;
+    color: #020E48;
 }
 
 body{
-    background-color: rgb(198, 215, 237);
+    background-color: #CED6F0;
     margin: 80px;
 }
 
@@ -21,7 +21,7 @@ body{
 }
 
 .services{
-    color: rgb(74, 119, 242);
+    color: #3760E0;
     text-align: center;
     padding-top: 50px;
 }
@@ -43,7 +43,7 @@ p{
 
 
 .circulo{
-    background-color: rgba(0, 0, 255, 0.688);
+    background-color: #3760E0;
     border-radius: 50%;
     height: 30px;
     width: 30px;
